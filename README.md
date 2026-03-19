@@ -1,11 +1,11 @@
 # Personal Website (2026)
-My portfolio's updated and upgraded version
+My website's updated and upgraded version
 
 ## ⚠️ On-going project...
 
 ## 🚀 Technologies
-  - TypeScript
-  - React
-  - Vite
-  - Tailwind CSS
-  - Shadcn/ui
+  - PHP
+  - Javascript
+  - Bootstrap
+  - FastAPI
+  - Postgresql
