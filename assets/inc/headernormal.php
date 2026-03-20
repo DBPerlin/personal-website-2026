@@ -1,6 +1,6 @@
 <header>
 <link rel="stylesheet" href="assets/css/style.css">
-<nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+<nav class="navbar navbar-expand-lg fixed-top navbar-normal">
     <div class="container position-relative">
 
         <a class="navbar-brand position-absolute start-0" href="index.php">

@@ -1,0 +1,83 @@
+/* ================================
+   CARDS
+================================ */
+
+.equipe{
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.projeto-card{
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.1s;
+    border: 1px solid #eee;
+    height: 100%;
+}
+
+.projeto-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(90, 52, 123, 0.1);
+}
+
+.projeto-img{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+.projeto-card h4{
+    margin-bottom: 5px;
+    color: #212529;
+    font-weight: 600;
+}
+
+.projeto-desc{
+    display: block;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.projeto-card p{
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    cursor: pointer;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/* === HERO ===*/
+
+.hero-projetos {
+    background: linear-gradient(135deg, #3a005c, #000000);
+    color: white;
+    padding: 140px 0 60px 0;
+    text-align: center;
+}
+
+.hero-projetos h1 {
+    font-size: 46px;
+    font-weight: 800;
+    text-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.233),
+        0 0 20px rgba(255,255,255,0.2);
+}
+
+.hero-projetos .subtitle {
+    margin-top: 10px;
+    opacity: 0.85;
+    font-size: 1.1rem;
+}

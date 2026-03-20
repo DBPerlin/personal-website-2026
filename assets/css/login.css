@@ -1,0 +1,46 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #6f42c1, #4b2a99);
+}
+
+/* BOX */
+.login-box {
+    background: rgba(85, 0, 155, 0.08);
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    max-width: 400px;
+
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    color: white;
+}
+
+/* INPUT */
+.login-box input {
+    border-radius: 10px;
+    border: none;
+}
+
+/* BOTÃO */
+.btn-login {
+    background: #fff;
+    color: #6f42c1;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(255,255,255,0.6);
+}
+
+.login-note {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color: white;
+}
