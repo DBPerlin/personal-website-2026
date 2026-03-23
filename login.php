@@ -45,9 +45,15 @@ window.addEventListener("scroll", function () {
 
         <div class="login-box">
 
+        <?php if (isset($_GET["erro"])): ?>
+            <div class="alert alert-danger">
+                Você não tem autorização... >:(
+            </div>
+        <?php endif; ?>
+
             <h2 class="text-center mb-4">DBPSystem 🔒</h2>
 
-            <form method="POST" action="login.php">
+            <form method="POST" action="processa_login.php">
 
                 <div class="mb-3">
                     <input type="text" name="usuario" class="form-control" placeholder="Usuário" required>
